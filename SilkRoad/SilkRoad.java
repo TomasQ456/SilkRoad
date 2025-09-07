@@ -1,13 +1,5 @@
 import java.util.*;
 
-/**
- * SilkRoad.java
- * Versión que usa Store y Robot como clases externas y
- * almacena las referencias iniciales en startStores / startRobots.
- *
- * Mantiene la API: placeStore, removeStore, placeRobot, removeRobot, moveRobot, resupplyStores,
- * returnRobots, reboot, porfit, stores, robots, makeVisible, makeInvisible, finish, ok.
- */
 public class SilkRoad {
     private final int _length;
     private final TreeMap<Integer, Store> stores = new TreeMap<>();
