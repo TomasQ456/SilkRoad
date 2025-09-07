@@ -148,4 +148,71 @@ El simulador permite crear una ruta de seda rectangular que se va enrollando en 
 
 -mejorar el diseño del robot, la via y la tienda.
 
+## Respuestas a las Preguntas de Reflexión
+
+### 1. ¿Cuáles fueron los mini-ciclos definidos? Justifíquenlos.
+Definimos los siguientes mini-ciclos:  
+- **Ciclo 0: Diseño (Astah)** → construcción del diagrama de clases inicial.  
+- **Ciclo 1: Lógica de `SilkRoad`** → implementación de métodos principales sin vista.  
+- **Ciclo 2: Entidades (`Store` y `Robot`)** → modelado independiente para separar responsabilidades.  
+- **Ciclo 3: Representación gráfica** → creación de `SilkRoadView`, `StoreView` y `RobotView`.  
+- **Ciclo 4: Integración con Canvas** → conexión con la librería `shapes` para hacer visible la simulación.  
+
+Estos ciclos fueron elegidos porque permitieron un desarrollo **iterativo e incremental**. Nos basamos en la **imagen del diseño inicial (Astah)** y en las guías de:  
+- Barker, Jacquie. *Beginning Java Objects: From Concepts to Code*. APress. 2005. Segunda edición.  
+- Larman, Craig. *Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development*. Prentice Hall. 2004.  
+
+---
+
+### 2. ¿Cuál es el estado actual del proyecto en términos de mini-ciclos? ¿Por qué?
+El proyecto está completo hasta el **Ciclo 4**, es decir, ya se puede:  
+- Dibujar la vía enrollada.  
+- Colocar tiendas y robots.  
+- Mostrar y ocultar la simulación en el `Canvas`.  
+
+Queda pendiente el **Ciclo 5**, que sería la eliminación del `Main` y el control completo desde `SilkRoad`.
+
+---
+
+### 3. ¿Cuál fue el tiempo total invertido por cada uno de ustedes? (Horas/Hombre)
+- Quiceno A: ~10 horas.  
+- Arteaga B: ~9 horas.  
+**Total:** ~27 horas.  
+
+---
+
+### 4. ¿Cuál consideran fue el mayor logro? ¿Por qué?
+El mayor logro fue la **integración del modelo lógico con la representación gráfica** usando el paquete `shapes`.  
+Esto permitió tener una simulación visual completa con una vía enrollada, tiendas y robots visibles.
+
+---
+
+### 5. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+El mayor problema técnico fue el **diseño de la vía continua enrollada** y las colisiones de clases (`java.awt.List` vs `java.util.List`).  
+Se resolvió:  
+- Implementando un algoritmo de espiral para mapear posiciones.  
+- Usando imports explícitos (`java.util.List`) para evitar conflictos.  
+
+---
+
+### 6. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados?
+**Lo que hicimos bien:**  
+- Definir ciclos cortos con entregables claros.  
+- Dividir el trabajo por responsabilidades (modelo, vista, integración).  
+- Revisar constantemente el diseño antes de programar.  
+
+**Compromiso para mejorar:**  
+- Documentar mejor los tiempos invertidos.  
+- Usar control de versiones con commits pequeños y frecuentes.
+  
+---
+
+### 8. ¿Qué referencias usaron? ¿Cuál fue la más útil?
+- Barker, Jacquie. *Beginning Java Objects: From Concepts to Code*. APress. 2005. Segunda edición.  
+- Larman, Craig. *Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development*. Prentice Hall. 2004.  
+- ICPC 2024. *Problem J: The Silk Road... with Robots!* :contentReference[oaicite:0]{index=0}.  
+- Oracle. (2025). *Java SE 8 Documentation*. Recuperado de [https://docs.oracle.com/javase/8/docs/api/](https://docs.oracle.com/javase/8/docs/api/)  
+- ChatGPT (OpenAI). *Asistente conversacional para guiar ciclos de desarrollo e implementación en Java*. 2025.  
+ 
+
 ---
