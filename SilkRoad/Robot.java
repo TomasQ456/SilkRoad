@@ -1,8 +1,4 @@
-/**
- * Robot.java
- * Clase externa que representa un robot.
- * Ya conoce su posición inicial (startLocation) y puede resetearse sin snapshot externo.
- */
+
 public class Robot {
     private final int startLocation;
     private int currentLocation;
@@ -34,10 +30,6 @@ public class Robot {
         if (amount > 0) this.tenges += amount;
     }
 
-    /**
-     * Resetea el robot a su posición inicial y limpia lo recolectado.
-     * (útil para reboot() / returnRobots())
-     */
     public void resetToStart() {
         this.currentLocation = this.startLocation;
         this.tenges = 0;
