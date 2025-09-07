@@ -1,8 +1,3 @@
-/**
- * Store.java
- * Clase externa que representa una tienda en la SilkRoad.
- * Ahora la tienda recuerda su cantidad inicial para poder reponerla sin snapshot externo.
- */
 public class Store {
     private final int location;
     private final int initialTenges;
