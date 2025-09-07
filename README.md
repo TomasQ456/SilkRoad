@@ -32,6 +32,8 @@ El simulador permite crear una ruta de seda rectangular que se va enrollando en 
 - Definición de atributos y operaciones esperadas para cada clase.  
 - Identificación de relaciones (composición entre `SilkRoad` y las demás entidades).  
 
+<img width="1014" height="829" alt="image" src="https://github.com/user-attachments/assets/b7df90c3-d231-4a70-bece-d049a2953cc5" />
+
 ---
 
 ### **Ciclo 1: Programación de la lógica de SilkRoad**
