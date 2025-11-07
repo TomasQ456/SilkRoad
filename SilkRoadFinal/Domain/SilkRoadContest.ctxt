@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=SilkRoadContest
+comment0.text=\r\n\ Resuelve\ y\ simula\ el\ problema\ de\ la\ marat\u00F3n\ "The\ Silk\ Road\ ...\ with\ Robots\!".\r\n\ Esta\ clase\ orquesta\ la\ simulaci\u00F3n\ d\u00EDa\ a\ d\u00EDa\ usando\ la\ clase\ SilkRoad.\r\n
+comment1.params=days\ slow
+comment1.target=void\ simulate(int[][],\ boolean)
+comment1.text=\r\n\ Simula\ la\ soluci\u00F3n\ del\ problema\ d\u00EDa\ a\ d\u00EDa,\ mostrando\ los\ movimientos\ \u00F3ptimos.\r\n\ @param\ days\ La\ entrada\ del\ problema\ de\ la\ marat\u00F3n.\r\n\ @param\ slow\ Si\ es\ true,\ la\ simulaci\u00F3n\ se\ ejecuta\ lentamente\ con\ pausas.\r\n
+comment2.params=days
+comment2.target=int[]\ solve(int[][])
+comment2.text=\r\n\ Resuelve\ el\ problema\ de\ la\ marat\u00F3n\ y\ devuelve\ un\ arreglo\ con\ el\ profit\ m\u00E1ximo\ de\ cada\ d\u00EDa.\r\n
+comment3.params=road
+comment3.target=SilkRoadContest.Result\ findOptimalAssignment(SilkRoad)
+comment4.params=robotIndex\ robots\ availableStores\ currentMoves\ currentProfit\ result\ boardSize
+comment4.target=void\ solveAssignmentRecursive(int,\ java.util.List,\ java.util.List,\ java.util.List,\ int,\ SilkRoadContest.Result,\ int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ M\u00E9todo\ main\ para\ probar\ la\ clase\ directamente.\r\n
+numComments=6

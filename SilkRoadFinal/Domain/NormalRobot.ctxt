@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=NormalRobot
+comment0.text=\r\n\ Robot\ Normal\:\ Comportamiento\ est\u00E1ndar.\r\n\ Puede\ moverse\ en\ ambas\ direcciones,\ costo\ de\ 1\ tenge\ por\ casilla,\ toma\ todo\ de\ las\ tiendas.\r\n
+comment1.params=location
+comment1.target=NormalRobot(int)
+comment2.params=
+comment2.target=java.lang.String\ assignColor()
+comment3.params=distance
+comment3.target=int\ getMovementCost(int)
+comment4.params=
+comment4.target=boolean\ canMoveBackward()
+comment5.params=storeAmount
+comment5.target=int\ collectFromStore(int)
+comment6.params=
+comment6.target=java.lang.String\ getType()
+numComments=7

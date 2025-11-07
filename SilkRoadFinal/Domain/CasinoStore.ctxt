@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CasinoStore
+comment0.text=\r\n\ Tienda\ Casino\:\ Duplica\ las\ ganancias\ del\ robot\ o\ lo\ deja\ sin\ nada.\r\n\ 50%\ de\ probabilidad\ de\ ganar\ el\ doble,\ 50%\ de\ perder\ todo.\r\n\ \u00A1Alto\ riesgo,\ alta\ recompensa\!\r\n
+comment1.params=location\ tenges
+comment1.target=CasinoStore(int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ assignColor()
+comment3.params=robot
+comment3.target=int\ empty(Robot)
+comment4.params=
+comment4.target=java.lang.String\ getType()
+numComments=5
