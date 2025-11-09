@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=StoreView
-comment1.params=store\ roadView
-comment1.target=StoreView(Domain.Store,\ SilkRoadView)
-comment2.params=
-comment2.target=void\ draw()
-comment3.params=
-comment3.target=void\ erase()
-numComments=4
